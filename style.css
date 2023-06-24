@@ -1,0 +1,122 @@
+/*------------ for uviversal-------------- */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*---------------- navbar styling ------------*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(169, 240, 223);
+    height: 90px;
+    position: sticky;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo{
+    font-size: 28px;
+    margin-left: 13px;
+    color: black;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    min-width: 500px;
+    
+}
+
+
+
+.items li{
+    list-style: none;
+    color: aliceblue;
+    /* margin-left: 83px; */
+    /* margin-right: 23px; */
+    /* border: 2px solid red; */
+}
+
+.items li a{
+    text-decoration: none;
+    color: red;
+    font-size: 23px;
+}
+
+/* ------------------- table styling start here --------------------*/
+
+.sec_1{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+background-color: aquamarine;
+}
+
+.sec_1_table{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 23px;  
+}
+
+table, th, td{
+    border: 1px solid black;
+    padding: 12px;
+    border-collapse: collapse;
+    font-size: 23px;
+    background-color: aqua;
+}
+
+.table_item{
+    border: 1px solid red;
+}
+
+
+/*------------------------- form styling start header -------------------*/
+
+.sec_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: aquamarine;
+    
+}
+.sec_2 h1{
+    margin-bottom: 13px;
+}
+.sec_2_form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 23px;
+    height: 770px;
+    width: 860px;
+}
+.inputfield{
+width: 780px;
+padding: 13px;
+display: block;
+margin: auto;
+border-radius: 13px;
+margin-top: 9px;
+}
+
+.sec_2_form button{
+    width: 780px;
+    padding: 9px 0px;
+    margin-top: 23px;
+    background-color: rgb(64, 64, 232);
+    font-size: 34px;
+    font-weight: bold;
+    border-radius: 13px;
+    
+}
+.label{
+    margin-left: 13px;
+    font-size: 23px;
+    font-weight: 400;
+}

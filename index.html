@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!---------------- navbar start here ------------------->
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1 >Library System</h1>
+        </div>
+        <div>
+            <ul class="items">
+                <li><a href="#section_1">Books</a></li>
+                <li><a href="#section_2">Resister</a></li>
+                <li><a href="">Contect Us</a></li>
+                <li><a href="">Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!------------------ table start here -------------------------->
+
+    <div class="sec_1" id="section_1">
+        <div class="sec_1_table">
+            <h1 style="margin-bottom: 12px;">Books</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <table>
+                                <tr><a href="">Book Title 1</a></tr><br>
+                                <tr style="border-collapse: inherit;">Publication Date: 2000</tr><br>
+                                <tr>Page Count: 250</tr><br>
+                                <tr>ISBN: 123-4567890123</tr>
+                            </table>
+                        </td>
+                        <td>Auther Name 1</td>
+                        <td>Genre</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <table>
+                                <tr><a href="">Book Title 2</a></tr><br>
+                                <tr>Publication Date: 2005</tr><br>
+                                <tr>Page Count: 250</tr><br>
+                                <tr>ISBN: 123-4567890456</tr>
+                            </table>
+                        </td>
+                        <td>Auther Name 1</td>
+                        <td>Genre</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <table>
+                                <tr><a href="">Book Title 3</a></tr><br>
+                                <tr>Publication Date: 2010</tr><br>
+                                <tr>Page Count: 250</tr><br>
+                                <tr>ISBN: 123-4567890789</tr>
+                            </table>
+                        </td>
+                        <td>Auther Name 1</td>
+                        <td>Genre</td>
+                        <td>Available</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!---------------------- form start here --------------->
+
+    <div class="sec_2" id="section_2">
+        <div class="sec_2_form">
+            <h1>Resister</h1>
+            <form action="">
+            <div>
+                <label for="fname" class="label">First Name:</label>
+                <input type="text" id="fname" required class="inputfield">
+            </div>
+            <div>
+                <label for="lname" class="label">Last Name:</label>
+                <input type="text" id="lname" required class="inputfield">
+            </div>
+            <div>
+                <label for="date" class="label">Date Of Birth:</label>
+                <input type="date" id="date" required class="inputfield">
+            </div>
+            <label for="age" class="label">Age:</label>
+            <div>
+                <input type="number" id="age" required class="inputfield">
+            </div>
+            <label for="email" class="label">Email:</label>
+            <div>
+                <input type="email" id="email" required class="inputfield">
+            </div>
+            <label for="pwd" class="label">password:</label>
+            <div>
+                <input type="password" id="pwd" required class="inputfield">
+            </div>
+            <label for="pwd" class="label">Confirm password:</label>
+            <div>
+                <input type="password" id="email" required class="inputfield">
+            </div>
+            <div><button type="submit" class="inputfield">Resister</button></div>
+        </form>
+        </div>
+    
+    </div>
+</body>
+
+</html>
